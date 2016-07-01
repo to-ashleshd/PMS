@@ -1,0 +1,9 @@
+http://192.168.1.11/pmsenrich/clientadmin
+
+apraiser@enrich.in / Enrich@123
+
+emp@enrich.in / Enrich@123
+
+reviewer@enrich.in / Enrich@123
+
+admin / admin

@@ -1,0 +1,4 @@
+RewriteEngine on
+Rewritebase /pmsenrich/
+RewriteCond $1 !^(index\.php|assets|uploads|cronbackup|robots\.txt|phpinfo\.php|ie_error\.php|bg\.png|chrome\.gif|firefox\.gif|cmp-20130606-4776_thumb\.png)
+RewriteRule ^(.*)$ index.php/$1 [L]
