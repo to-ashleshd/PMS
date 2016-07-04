@@ -4,8 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Material Admin</title>
-
+    <title>PMS  Admin Dashboard</title>
     <!-- Common CSS -->
     <?php $this->load->view('materialv1/common/common_css'); ?>
 </head>
@@ -198,8 +197,6 @@
 
     <!-- Common Footer -->
     <?php $this->load->view('materialv1/common/common_footer'); ?>
-
-
     <!-- Page Loader -->
     <div class="page-loader">
         <div class="preloader pls-blue">

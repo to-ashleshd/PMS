@@ -1219,7 +1219,7 @@
          * @for defaults
          **/
         css: {
-            actions: "actions btn-group", // must be a unique class name or constellation of class names within the header and footer
+            actions: "actions btn-group pull-left", // must be a unique class name or constellation of class names within the header and footer
             center: "text-center",
             columnHeaderAnchor: "column-header-anchor", // must be a unique class name or constellation of class names within the column header cell
             columnHeaderText: "text",
@@ -1361,8 +1361,8 @@
             actions: "<div class=\"{{css.actions}}\"></div>",
             body: "<tbody></tbody>",
             cell: "<td class=\"{{ctx.css}}\" style=\"{{ctx.style}}\">{{ctx.content}}</td>",
-            footer: "<div id=\"{{ctx.id}}\" class=\"{{css.footer}}\"><div class=\"row\"><div class=\"col-sm-6\"><p class=\"{{css.pagination}}\"></p></div><div class=\"col-sm-6 infoBar\"><p class=\"{{css.infos}}\"></p></div></div></div>",
-            header: "<div id=\"{{ctx.id}}\" class=\"{{css.header}}\"><div class=\"row\"><div class=\"col-sm-12 actionBar\"><p class=\"{{css.search}}\"></p><p class=\"{{css.actions}}\"></p></div></div></div>",
+            footer: "<div id=\"{{ctx.id}}\" class=\"{{css.footer}}\"><div class=\"row\"><div class=\"col-sm-6 infoBar\"><p class=\"{{css.infos}}\"></p></div><div class=\"col-sm-6\ pull-left\"><p class=\"{{css.pagination}}\"></p></div></div></div>",
+            header: "<div id=\"{{ctx.id}}\" class=\"{{css.header}}\"><div class=\"row m-0\"><div class=\"col-sm-12 actionBar p-0\"><div class=\"p-0 col-sm-6 col-md-6 col-xs-12\"><p class=\"{{css.actions}}\"></p></div><div class=\"p-0 col-sm-6 col-md-6 col-xs-12\"><p class=\"{{css.search}}\"></p></div></div></div></div>",
             headerCell: "<th data-column-id=\"{{ctx.column.id}}\" class=\"{{ctx.css}}\" style=\"{{ctx.style}}\"><a href=\"javascript:void(0);\" class=\"{{css.columnHeaderAnchor}} {{ctx.sortable}}\"><span class=\"{{css.columnHeaderText}}\">{{ctx.column.text}}</span>{{ctx.icon}}</a></th>",
             icon: "<span class=\"{{css.icon}} {{ctx.iconCss}}\"></span>",
             infos: "<div class=\"{{css.infos}}\">{{lbl.infos}}</div>",
