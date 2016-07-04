@@ -1836,7 +1836,9 @@ hr.fc-divider {
 }
 
 .bootgrid-header {
-  padding: 0 25px 10px;
+ /*  padding: 0 25px 10px;*/
+    padding: 0 0 10px;
+
 }
 
 .bootgrid-header .search {
@@ -1850,7 +1852,7 @@ hr.fc-divider {
 
 .bootgrid-header .search .glyphicon-search {
   vertical-align: top;
-  padding: 9px 10px 0;
+  padding: 5px 10px 0;
 }
 
 .bootgrid-header .search .glyphicon-search:before {
@@ -1883,9 +1885,13 @@ hr.fc-divider {
 }
 
 .bootgrid-header .actions .btn-group .btn {
-  height: 35px;
+ /*  height: 35px;*/
   box-shadow: none !important;
   background: transparent;
+  height: 26px;
+  padding: 6px 8px;
+  line-height: 16px;
+
 }
 
 .bootgrid-header .actions .btn-group .dropdown-menu {
@@ -1917,7 +1923,7 @@ hr.fc-divider {
 
 .bootgrid-header .actions .btn-group .zmdi {
   line-height: 100%;
-  font-size: 18px;
+  font-size: 16px;
   vertical-align: top;
   -webkit-transition: all;
   -o-transition: all;
@@ -1948,7 +1954,7 @@ hr.fc-divider {
 }
 
 .bootgrid-footer .col-sm-6 {
-  padding: 10px 30px 20px;
+    padding: 10px 0;
 }
 
 @media (max-width: 768px) {
@@ -1964,10 +1970,10 @@ hr.fc-divider {
 }
 
 .bootgrid-footer .infoBar .infos {
-  border: 1px solid #EEE;
+ /*  border: 1px solid #EEE;*/
   display: inline-block;
-  float: right;
-  padding: 7px 30px;
+  float: left;
+  padding: 6px 0;
   font-size: 12px;
   margin-top: 5px;
 }

@@ -19,6 +19,14 @@ class Materialv1 extends CI_Controller {
         $this->load->view('materialv1/clientadmin/pms-changepass');
 
     }
+    public function profile() {
+        $this->load->view('materialv1/clientadmin/pms_profile');
+
+    }
+    public function generalsetting() {
+        $this->load->view('materialv1/clientadmin/general_setting');
+
+    }
          
 }
 

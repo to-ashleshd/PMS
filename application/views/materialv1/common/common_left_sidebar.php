@@ -49,12 +49,26 @@
                 </li>
             </ul>
         </li>
+         <li class="sub-menu">
+            <a href=""><i class="zmdi zmdi-settings zmdi-hc-fw"></i> Setting</a>
+
+            <ul>
+                <li><a href="<?php echo base_url("materialv1/generalsetting") ?>">General Setting</a></li>
+                <li><a href="<?php //echo base_url("") ?>">Environment Setting</a></li>
+                <li><a href="<?php //echo base_url("") ?>">Administrator and Roles</a></li>
+                <li><a href="<?php //echo base_url("") ?>">Localization</a></li>
+                <li><a href="<?php //echo base_url("") ?>">Add Competencies</a></li>
+                <li><a href="<?php //echo base_url("") ?>">Employee ACL Permission</a></li>
+                <li><a href="<?php //echo base_url("") ?>">Excel Import</a></li>
+                <li><a href="<?php //echo base_url("") ?>">Announcements</a></li>
+            </ul>
+        </li>  
         <li class="sub-menu">
             <a href=""><i class="zmdi zmdi-account zmdi-hc-fw"></i> My Account</a>
 
             <ul>
                 <li><a href="<?php echo base_url("materialv1/changepassword")?>">Change Password</a></li>
-                <li><a href="#">Profile</a></li>
+                <li><a href="<?php echo base_url("materialv1/profile")?>">Profile</a></li>
             </ul>
         </li>                   
 

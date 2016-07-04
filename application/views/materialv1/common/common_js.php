@@ -6,6 +6,7 @@
 <script src="<?php echo base_url('assets/material'); ?>/vendors/bower_components/Waves/dist/waves.min.js"></script>
 <script src="<?php echo base_url('assets/material'); ?>/vendors/bootstrap-growl/bootstrap-growl.min.js"></script>
 <script src="<?php echo base_url('assets/material'); ?>/vendors/bower_components/bootstrap-sweetalert/lib/sweet-alert.min.js"></script>
+<script src="<?php echo base_url();?>assets/material/vendors/bower_components/bootstrap-select/dist/js/bootstrap-select.js" type="text/javascript"></script>
 
 <!-- Placeholder for IE9 -->
 <!--[if IE 9 ]>

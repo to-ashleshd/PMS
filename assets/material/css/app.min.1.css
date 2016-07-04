@@ -2991,7 +2991,7 @@ th {
 .table > thead > tr > td,
 .table > tbody > tr > td,
 .table > tfoot > tr > td {
-  padding: 10px;
+  padding:4px 10px;
   line-height: 1.42857143;
   vertical-align: top;
   border-top: 1px solid #f0f0f0;
@@ -6239,9 +6239,10 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   line-height: 1.42857143;
   text-decoration: none;
   color: #7e7e7e;
-  background-color: #e2e2e2;
-  border: 1px solid #ffffff;
+/*  background-color: #e2e2e2;
+  border: 1px solid #ffffff;*/
   margin-left: -1px;
+
 }
 
 .pagination > li:first-child > a,
@@ -6263,7 +6264,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination > li > span:focus {
   z-index: 2;
   color: #333333;
-  background-color: #d7d7d7;
+  /*background-color: #d7d7d7;*/
   border-color: #ffffff;
 }
 
@@ -6273,11 +6274,12 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination > .active > span:hover,
 .pagination > .active > a:focus,
 .pagination > .active > span:focus {
-  z-index: 3;
-  color: #ffffff;
-  background-color: #00bcd4;
-  border-color: #ffffff;
+   z-index: 3;
+  color: #000;
+/*  background-color: #00bcd4;
+  border-color: #ffffff;*/
   cursor: default;
+
 }
 
 .pagination > .disabled > span,
@@ -6287,9 +6289,10 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination > .disabled > a:hover,
 .pagination > .disabled > a:focus {
   color: #777777;
-  background-color: #e2e2e2;
-  border-color: #ffffff;
+/*  background-color: #e2e2e2;
+  border-color: #ffffff;*/
   cursor: not-allowed;
+
 }
 
 .pagination-lg > li > a,
@@ -10145,10 +10148,13 @@ h6 small,
  */
 
 .header-inner {
-  list-style: none;
-  padding: 17px 0;
-  margin-bottom: 0;
-  position: relative;
+    display: block;
+    list-style: outside none none;
+    margin-bottom: 0;
+    overflow: hidden;
+    padding: 10px 0;
+    position: relative;
+
 }
 
 .header-inner > li:not(.pull-right) {
@@ -10409,7 +10415,8 @@ h6 small,
 }
 
 #header .logo a {
-  padding: 7px 10px;
+ /*  padding: 7px 10px;*/
+    padding: 0px 10px;
 }
 
 #top-search-wrap {
@@ -13104,7 +13111,7 @@ a.lv-footer:hover {
 .table > thead > tr > th {
   background-color: #fff;
   vertical-align: middle;
-  font-weight: 500;
+  font-weight: 400;
   color: #333;
   border-width: 1px;
   text-transform: uppercase;
@@ -13129,7 +13136,7 @@ a.lv-footer:hover {
 .table > thead > tr > td:first-child,
 .table > tbody > tr > td:first-child,
 .table > tfoot > tr > td:first-child {
-  padding-left: 30px;
+    padding-left: 10px;
 }
 
 .table > thead > tr > th:last-child,
@@ -13156,7 +13163,7 @@ a.lv-footer:hover {
 
 .table > tbody > tr:last-child > td,
 .table > tfoot > tr:last-child > td {
-  padding-bottom: 20px;
+    padding-bottom: 4px;
 }
 
 .table-striped td,
@@ -13603,7 +13610,7 @@ fieldset[disabled] .btn-inverse:active {
 }
 
 .btn-icon .zmdi {
-  font-size: 17px;
+  font-size: 16px;
 }
 
 .btn-icon-text > .zmdi {
@@ -14246,15 +14253,15 @@ html:not(.ie9) .select.fg-line:before {
 .pagination > li > a,
 .pagination > li > span {
   border-radius: 50% !important;
-  padding: 0;
-  width: 40px;
-  height: 40px;
-  line-height: 38px;
-  text-align: center;
-  font-size: 14px;
-  z-index: 1;
-  position: relative;
-  cursor: pointer;
+    cursor: pointer;
+    font-size: 14px;
+    height: 34px;
+    line-height: 34px;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    width: 24px;
+    z-index: 1;
 }
 
 .pagination > li > a > .zmdi,
